@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #FFFEF4;
+	font-family: 'Noto Sans Georgian', sans-serif;
+	color: #333;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+}
+
+.title {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 3rem;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+	margin: 1rem;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 20px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+	background-color: #FFFEF4;
+	height: 50px;
+	align-items: center;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1.5rem;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.7rem;
+	line-height: 1.6;
+}
+
+.hero {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("/src/imagens/fotos/EdilsonParque2.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+.hero-box {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 4%;
+	gap: 30rem;
+	align-items: center;
+}
+
+.hero-title {
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	box-shadow: 0px 0px 10px #000000;
+	backdrop-filter: blur(5px);
+	background: rgba(105, 105, 105, 0.2);
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 30px;
+	height: 30vh;
+	width: 80%;
+	gap: 3rem;
+	display: flex;
+
+	h2 {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 3.8rem;
+		line-height: 1.2;
+		text-align: center;
+		color: #FFFFFF;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+	}
+
+	hr {
+		background-color: #FFFFFF;
+		height: 2px;
+		border: 0;
+		width: 85%;
+		border-radius: 50px;
+	}
+
+	p {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 3rem;
+		line-height: 1.2;
+		text-align: center;
+		color: #FFFFFF;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+	}
+}
+
+button {
+	width: 360px;
+	height: 76px;
+	background: rgba(57, 71, 54, 0.9);
+	border: 1px solid #000000;
+	box-shadow: 0px 0px 10px #000000;
+	border-radius: 20px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 38px;
+	text-align: center;
+	color: #FFFFFF;
+}
